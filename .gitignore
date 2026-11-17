@@ -1,0 +1,20 @@
+# 既存の Discord Bot（別リポジトリ masahiro622/booklog-bot）。参考用に手元に置くだけ
+booklog-bot/
+
+# 秘密情報
+.env
+.env.*
+!.env.example
+
+# 蔵書データ（個人情報）
+*.csv
+*.db
+*.sqlite
+
+# Node.js
+node_modules/
+.next/
+
+# 作業用メモ（非公開）
+PLAN.md
+LOG.md
